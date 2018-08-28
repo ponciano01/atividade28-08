@@ -1,0 +1,29 @@
+html, body{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+.caixas{
+    /* border-top: 2px solid #333;
+    border-bottom: 2px solid #333; */
+    height: 100%;
+    display: flex;
+    /* row | eow-reverse | column| column-reverse */
+    flex-direction: row;
+    /*nowrap | wrap | wrap-reverse */
+    flex-wrap: wrap;
+    /* flext-start | flex-end | center | space-beetween | space-aroud */
+    justify-content: center;
+    /* flex-start | flex-end | center | stretch | baseline */
+    align-items: center;
+}
+
+.caixa{
+    color: #333;
+    border: 2px solid #333;
+    width: 200px;
+    margin: 5px;
+    text-align: center;
+    padding: 20px;
+}
